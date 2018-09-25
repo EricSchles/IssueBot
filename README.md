@@ -118,8 +118,9 @@ $ psql issuemanager
 issuemanager=# create user issuemanager password 'CHANGE_ME_PASSWORD';
 ```
 
-4. Edit your configuration in `config/local.js` under key `db`.
-5. Test database with `node scripts/test-db.js`
+4. ensure you have all necessary node packages - `npm install`
+5. Edit your configuration in `config/local.js` under key `db`.
+6. Test database with `node scripts/test-db.js`
 
 ### Tunnels to Localhost
 
